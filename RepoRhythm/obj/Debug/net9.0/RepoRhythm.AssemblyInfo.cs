@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RepoRhythm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7338592bc0185546cb7a84333670225f4b5d824")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bce5bd6f6dca75332ecb53db3c1406afe50aa37")]
 [assembly: System.Reflection.AssemblyProductAttribute("RepoRhythm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RepoRhythm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

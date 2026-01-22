@@ -79,5 +79,20 @@ public class RhythmManager
         _rhythms.Clear();
     }
 
-    // TODO: Add Update method to change a Rhythm's key
+    /// <summary>
+    /// Updates the key of a Rhythm by its identifier.
+    /// </summary>
+    /// <param name="id">The unique identifier of the Rhythm to update.</param>
+    /// <param name="newKey">The new key value to set.</param>
+    /// <returns>True if the Rhythm was found and updated; otherwise, false.</returns>
+    public bool Update(string id, string newKey)
+    {
+        var rhythm = FindById(id);
+        if (rhythm != null)
+        {
+            rhythm.Key = newKey;
+            return true;
+        }
+        return false;
+    }
 }
