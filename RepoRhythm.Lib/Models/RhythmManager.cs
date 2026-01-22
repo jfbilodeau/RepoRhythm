@@ -44,36 +44,9 @@ public class RhythmManager
     /// </summary>
     public List<Rhythm> SortByName()
     {
-        var r = new List<Rhythm>(_rhythms);
-        if (r.Count <= 1) return r;
-
-        string NameOf(Rhythm r) => r?.Name ?? string.Empty;
-
-        void qs(int p1, int p2)
-        {
-            if (p1 >= p2) return;
-            int i = p1, j = p2;
-            string p = NameOf(r[(p1 + p2) / 2]);
-
-            while (i <= j)
-            {
-                while (string.Compare(NameOf(r[i]), p, StringComparison.OrdinalIgnoreCase) < 0) i++;
-                while (string.Compare(NameOf(r[j]), p, StringComparison.OrdinalIgnoreCase) > 0) j--;
-                if (i <= j)
-                {
-                    var tmp = r[i];
-                    r[i] = r[j];
-                    r[j] = tmp;
-                    i++; j--;
-                }
-            }
-
-            if (p1 < j) qs(p1, j);
-            if (i < p2) qs(i, p2);
-        }
-
-        qs(1, r.Count - 1);
-        return r;
+        return _rhythms
+            .OrderBy(r => r.Name, StringComparer.OrdinalIgnoreCase)
+            .ToList();
     }
 
     /// <summary>
@@ -105,4 +78,6 @@ public class RhythmManager
     {
         _rhythms.Clear();
     }
+
+    // TODO: Add Update method to change a Rhythm's key
 }
