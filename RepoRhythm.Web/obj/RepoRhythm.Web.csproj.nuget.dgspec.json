@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jbilodeau\\tmp\\93851\\RepoRhythm.Web\\RepoRhythm.Web.csproj": {}
+    "/home/runner/work/RepoRhythm/RepoRhythm/RepoRhythm.Web/RepoRhythm.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jbilodeau\\tmp\\93851\\RepoRhythm.Lib\\RepoRhythm.Lib.csproj": {
+    "/home/runner/work/RepoRhythm/RepoRhythm/RepoRhythm.Lib/RepoRhythm.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jbilodeau\\tmp\\93851\\RepoRhythm.Lib\\RepoRhythm.Lib.csproj",
+        "projectUniqueName": "/home/runner/work/RepoRhythm/RepoRhythm/RepoRhythm.Lib/RepoRhythm.Lib.csproj",
         "projectName": "RepoRhythm.Lib",
-        "projectPath": "C:\\Users\\jbilodeau\\tmp\\93851\\RepoRhythm.Lib\\RepoRhythm.Lib.csproj",
-        "packagesPath": "C:\\Users\\jbilodeau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jbilodeau\\tmp\\93851\\RepoRhythm.Lib\\obj\\",
+        "projectPath": "/home/runner/work/RepoRhythm/RepoRhythm/RepoRhythm.Lib/RepoRhythm.Lib.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/RepoRhythm/RepoRhythm/RepoRhythm.Lib/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jbilodeau\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -65,40 +59,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jbilodeau\\tmp\\93851\\RepoRhythm.Web\\RepoRhythm.Web.csproj": {
+    "/home/runner/work/RepoRhythm/RepoRhythm/RepoRhythm.Web/RepoRhythm.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jbilodeau\\tmp\\93851\\RepoRhythm.Web\\RepoRhythm.Web.csproj",
+        "projectUniqueName": "/home/runner/work/RepoRhythm/RepoRhythm/RepoRhythm.Web/RepoRhythm.Web.csproj",
         "projectName": "RepoRhythm.Web",
-        "projectPath": "C:\\Users\\jbilodeau\\tmp\\93851\\RepoRhythm.Web\\RepoRhythm.Web.csproj",
-        "packagesPath": "C:\\Users\\jbilodeau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jbilodeau\\tmp\\93851\\RepoRhythm.Web\\obj\\",
+        "projectPath": "/home/runner/work/RepoRhythm/RepoRhythm/RepoRhythm.Web/RepoRhythm.Web.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/RepoRhythm/RepoRhythm/RepoRhythm.Web/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jbilodeau\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\jbilodeau\\tmp\\93851\\RepoRhythm.Lib\\RepoRhythm.Lib.csproj": {
-                "projectPath": "C:\\Users\\jbilodeau\\tmp\\93851\\RepoRhythm.Lib\\RepoRhythm.Lib.csproj"
+              "/home/runner/work/RepoRhythm/RepoRhythm/RepoRhythm.Lib/RepoRhythm.Lib.csproj": {
+                "projectPath": "/home/runner/work/RepoRhythm/RepoRhythm/RepoRhythm.Lib/RepoRhythm.Lib.csproj"
               }
             }
           }
@@ -113,7 +101,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -137,7 +125,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
